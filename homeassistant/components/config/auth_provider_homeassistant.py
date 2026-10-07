@@ -11,6 +11,7 @@ from homeassistant.exceptions import Unauthorized
 
 ERR_USER_NOT_FOUND = "User not found"
 
+
 @callback
 def async_setup(hass: HomeAssistant) -> bool:
     """Enable the Home Assistant views."""
